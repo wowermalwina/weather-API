@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#d592a3, #373252);
+    text-align: center;
+    color: #1c2b2d;
+    font-family: "Gill Sans", sans-serif;
+  }
+
+  form {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  h1 {
+    font-size: 60px;
+    color: #0a043c;
+  }
+
+  h2 {
+    font-size: 35px;
+    color: #14274e;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  .card {
+    background-color: #dd98a7;
+    border: 5px solid #373252;
+    border-radius: 5px;
+    width: auto;
+  }
+
+  p {
+    color: #14274e;
+    text-align: center;
+  }
+
+  .temp {
+    font-size: 30px;
+    color: #1c2b2d;
+    display: inline;
+  }
+
+  a {
+    color: #dd98a7;
+    display: inline;
+
+    &:hover {
+      color: #c28799;
+      font-style: normal;
+      text-emphasis: none;
+      text-decoration: none;
+    }
+  }
+
+  .units {
+    position: relative;
+    font-size: 25px;
+    top: -20px;
+  }
+
+  .col-form-label {
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #373252;
+    border-radius: 5px;
+  }
+
+  .btn-light {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #f2f2f1;
+    border: 1px solid #373252;
+    border-radius: 5px;
+  }
+
+  .btn-light:hover {
+    background-color: #9c7999;
+    border: 1px solid #373252;
+    border-radius: 5px;
+  }
+
+  .active {
+    color: #1c2b2d;
+    cursor: default;
+  }
+
+  .active:hover {
+    text-decoration: none;
+  }
+
+  .hum-wind {
+    font-size: 14px;
+    color: #1c2b2d;
+  }
+
+  #humidity,
+  #windspeed {
+    font-weight: bold;
+    color: #dc98a7;
+  }
+
+  #day-one,
+  #day-two,
+  #day-three,
+  #day-four,
+  #day-five {
+    font-size: 14px;
+  }
+
+  #icon-one,
+  #icon-two,
+  #icon-three,
+  #icon-four,
+  #icon-five {
+    width: 50px;
+  }
+}

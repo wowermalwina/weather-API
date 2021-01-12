@@ -1,1 +1,149 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d592a3), to(#373252));
+  background: linear-gradient(#d592a3, #373252);
+  text-align: center;
+  color: #1c2b2d;
+  font-family: "Gill Sans", sans-serif;
+}
+
+body form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+body h1 {
+  font-size: 60px;
+  color: #0a043c;
+}
+
+body h2 {
+  font-size: 35px;
+  color: #14274e;
+}
+
+body h3 {
+  font-size: 20px;
+}
+
+body h4 {
+  font-size: 40px;
+}
+
+body .card {
+  background-color: #dd98a7;
+  border: 5px solid #373252;
+  border-radius: 5px;
+  width: auto;
+}
+
+body p {
+  color: #14274e;
+  text-align: center;
+}
+
+body .temp {
+  font-size: 30px;
+  color: #1c2b2d;
+  display: inline;
+}
+
+body a {
+  color: #dd98a7;
+  display: inline;
+}
+
+body a:hover {
+  color: #c28799;
+  font-style: normal;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
+}
+
+body .units {
+  position: relative;
+  font-size: 25px;
+  top: -20px;
+}
+
+body .col-form-label {
+  padding: 4px;
+  font-size: 14px;
+  border: 1px solid #373252;
+  border-radius: 5px;
+}
+
+body .btn-light {
+  padding: 5px;
+  font-size: 14px;
+  background-color: #f2f2f1;
+  border: 1px solid #373252;
+  border-radius: 5px;
+}
+
+body .btn-light:hover {
+  background-color: #9c7999;
+  border: 1px solid #373252;
+  border-radius: 5px;
+}
+
+body .active {
+  color: #1c2b2d;
+  cursor: default;
+}
+
+body .active:hover {
+  text-decoration: none;
+}
+
+body .hum-wind {
+  font-size: 14px;
+  color: #1c2b2d;
+}
+
+body #humidity,
+body #windspeed {
+  font-weight: bold;
+  color: #dc98a7;
+}
+
+body #day-one,
+body #day-two,
+body #day-three,
+body #day-four,
+body #day-five {
+  font-size: 14px;
+}
+
+body #icon-one,
+body #icon-two,
+body #icon-three,
+body #icon-four,
+body #icon-five {
+  width: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
